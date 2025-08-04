@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace quiz_app
 {
-    public partial class frmDashboardStudent : Form
+    public partial class student1 : Form
     {
-        public frmDashboardStudent()
+        public student1()
         {
             InitializeComponent();
         }
@@ -22,24 +22,19 @@ namespace quiz_app
 
         }
 
-        private void guna2GradientButton3_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        private void student1_Load(object sender, EventArgs e)
         {
-
+            uC_Home1.Visible = false;
         }
 
-        private void guna2GradientButton2_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void guna2GradientPanel2_Paint(object sender, PaintEventArgs e)
-        {
-
+            uC_Home1.Visible = true;
         }
     }
 }

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace quiz_app.Student_UC
+namespace quiz_app
 {
-    public partial class UC_TakeExam : UserControl
+    public partial class uC_question : UserControl
     {
-        public UC_TakeExam()
+        public uC_question()
         {
             InitializeComponent();
+        }
+
+        private void uC_question_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }

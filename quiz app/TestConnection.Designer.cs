@@ -231,7 +231,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(796, 516);
+            ClientSize = new Size(796, 546);
             Controls.Add(guna2GradientPanel1);
             Controls.Add(guna2CirclePictureBox1);
             Controls.Add(lblMessage);

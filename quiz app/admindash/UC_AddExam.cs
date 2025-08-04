@@ -8,21 +8,16 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace quiz_app.Teacher_UC
+namespace quiz_app.admindash
 {
-    public partial class UC_Calender : UserControl
+    public partial class UC_AddExam : UserControl
     {
-        public UC_Calender()
+        public UC_AddExam()
         {
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)
+        private void txtUsername_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -22,7 +22,7 @@ namespace quiz_app
             // This is the line that launches your main form.
             // IMPORTANT: Replace 'TestConnection' with the actual name of your first form.
             // For example, if your login form is named 'LoginForm', it should be 'new LoginForm()'.
-            Application.Run(new TestConnection());
+            Application.Run(new frmDashboardAdmin());
         }
     }
 }

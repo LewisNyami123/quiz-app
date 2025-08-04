@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace quiz_app.Teacher_UC
+namespace quiz_app.admindash
 {
-    public partial class UC_StudentPerformancecs : UserControl
+    public partial class uC_info : UserControl
     {
-        public UC_StudentPerformancecs()
+        public uC_info()
         {
             InitializeComponent();
         }
